@@ -1,0 +1,48 @@
+.socials {
+    margin-bottom: 35px;
+  }
+  
+  .socials__hashtag {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  
+  .socials__green {
+    color: #49A144;
+    padding-right: 2px;
+  }
+  
+  .socials__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+  }
+  
+  .socials__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  
+  .socials__item-link {
+    display: block;
+    width: 24px;
+    height: 24px;
+  
+  }
+  
+  .socials__item-link--fb {
+    background: url("../img/fb.svg") no-repeat center;
+  }
+  
+  .socials__item-link--tw {
+    background: url("../img/tw.svg") no-repeat center;
+  }
+  
+  .socials__item-link--inst {
+    background: url("../img/inst.svg") no-repeat center;
+  }

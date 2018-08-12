@@ -1,0 +1,24 @@
+.logo {
+      display: block;
+      color: inherit;
+  }
+  
+  
+  
+  @media (min-width: 768px) {
+    .logo--header {
+      margin-right: 20px;
+      order: -2;
+    }
+  
+    
+  }
+  
+  @media (min-width: 992px) {
+    .logo--header  {
+      margin-right: 120px;
+      
+    }
+  
+    
+  }

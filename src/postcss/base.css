@@ -1,0 +1,21 @@
+body {
+    font-family: Roboto, Arial, sans-serif;
+    min-width: 320px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1d1d1d;
+    background-color: #f2f2f2;
+}
+
+@media (min-width: 992px) {
+  body {
+    background-color: #fff;
+  }
+}
+
+.container {
+    max-width: 976px;
+    margin: 0 auto;
+    padding: 0 8px;
+    overflow: hidden;
+}

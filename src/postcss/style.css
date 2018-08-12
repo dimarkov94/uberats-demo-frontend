@@ -1,0 +1,15 @@
+@import "normalize.css";
+@import "grid.css";
+@import "base.css";
+@import "blocks/main-header.css";
+@import "blocks/search.css";
+@import "blocks/logo.css";
+@import "blocks/navigation.css";
+@import "blocks/restaurants.css";
+@import "blocks/socials.css";
+@import "blocks/language.css";
+@import "blocks/btn-top.css";
+@import "blocks/main-footer.css";
+@import "blocks/restaurant/main-nav.css";
+@import "blocks/restaurant/restaurant.css";
+@import "blocks/restaurant/snacks.css";

@@ -1,0 +1,39 @@
+.language {
+    position: relative;
+    padding-bottom: 100px;
+  }
+  
+  .language__btn {
+    position: absolute;
+    top: 32px;
+    left: 0;
+    padding: 12px 71px 12px 48px;
+    color: #fff;
+    background: #3B3B3B url("../img/world.svg") no-repeat 9% center;
+    border: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    z-index: 1;
+  }
+  
+  .language__btn::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    position: absolute;
+    right: 13px;
+    top: 11px;
+    transform: rotate(-45deg);
+  }
+  
+  .language__select {
+    position: absolute;
+    top: 32px;
+    z-index: 10;
+    width: 173px;
+    height: 40px;
+    opacity: 0;
+  }
