@@ -1,0 +1,48 @@
+.navigation {
+    padding-bottom: 20px;
+    
+  }
+  
+.navigation__list,
+.navigation__list-two {
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  
+  
+  .navigation__link {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+  }
+  
+  .navigation__item {
+    margin-bottom: 15px;
+  }
+
+  
+  .navigation a:hover {
+    text-decoration: underline;
+}
+
+  @media (min-width: 768px) {
+    .navigation {
+        padding-top: 35px;
+        padding-bottom: 40px;
+      }
+
+    .navigation__list,
+    .navigation__list-two {
+      display: inline-block;
+      vertical-align: top;
+      
+    }
+  
+    .navigation__list {
+      margin-right: 100px;
+    }
+  }

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Uber Eats</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="main-header">
+
+        <div class="container">
+            <!-- <div class="main-header__top"> -->
+            <div class="main-header__block">
+                <a class="logo logo--header">
+                    <img src="img/logo.svg" alt="Uber Eats">
+                </a>
+                <div class="main-header__authorization">
+                    <a href="#" class="main-header__singin">Sign In</a>
+                    <a href="#" class="main-header__register">Register</a>
+                    <a href="#" class="main-header__basket"></a>
+                </div>
+                <!-- </div> -->
+                <div class="main-header__middle">
+                    <form action="" method="post">
+                        <div class="search">
+                            <button type="submit" class="search__btn"></button>
+                            <input class="search__field" type="search" placeholder="Search for restaurant or cuisine">
+                        </div>
+                    </form>
+                </div>
+                <div class="main-header__bottom">
+                    <div class="main-header__bottom-left">
+                        <label class="main-header__when">
+                            <span class="main-header__when-word">When</span>
+                            <input class="main-header__when-field" type="text" value="ASAP">
+                        </label>
+                    </div>
+                    <div class="main-header__bottom-right">
+                        <label class="main-header__to">
+                            <span class="main-header__to-word">To</span>
+                            <input class="main-header__to-field" type="text" value="ul. Bolshaya Dmitrovka,22">
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <section class="page">
+        <div class="container">
+            <main class="content">
+                <section class="restaurants">
+                    <h1 class="restaurants__title">Moscow Restaurants</h1>
+                    <div class="restaurants__list">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <section class="restaurants__item">
+                                    <a href="restaurant.html" class="restaurants__link">
+                                        <div class="restaurants__pic-wrap">
+                                            <picture>
+                                                <source media="(min-width:992px)" srcset="img/1.jpg">
+                                                <source media="(min-width:768px)" srcset="img/rest1_t.png">
+                                                <img src="img/1.jpg" alt="Макдоналдс — Газетный">
+                                            </picture>                                   
+                                        </div>
+                                        <h2 class="restaurants__item-title">Макдоналдс — Газетный</h2>
+                                        <div class="restaurants__wrap">
+                                            <span class="restaurants__currency">&#8381;&#8381;</span>
+                                            <ul class="restaurants__kitchen">
+                                                <li class="restaurants__kitchen-item">
+                                                    Бургеры
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <small class="restaurants__dist">30 - 40 Min</small>
+                                    </a>                                  
+                                </section>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <section class="restaurants__item">
+                                    <a href="#" class="restaurants__link">
+                                        <div class="restaurants__pic-wrap">
+                                            <picture>
+                                                <source media="(min-width:992px)" srcset="img/2.jpg">
+                                                <source media="(min-width:768px)" srcset="img/rest2_t.png">
+                                                <img src="img/2.jpg" alt="Макдоналдс — Газетный">
+                                            </picture>                                  
+                                        </div>
+                                        <h2 class="restaurants__item-title">DimSum & Co — ЦДМ</h2>
+                                        <div class="restaurants__wrap">
+                                            <span class="restaurants__currency">&#8381;</span>
+                                            <ul class="restaurants__kitchen">
+                                                <li class="restaurants__kitchen-item">
+                                                    Японская
+                                                </li>
+                                                <li class="restaurants__kitchen-item">
+                                                    Китайская
+                                                </li>
+                                                <li class="restaurants__kitchen-item">
+                                                    Азиатская
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <small class="restaurants__dist">40 - 50 Min</small>
+                                    </a>                                 
+                                </section>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <section class="restaurants__item">
+                                    <a href="#" class="restaurants__link">
+                                        <div class="restaurants__pic-wrap">
+                                            <picture>
+                                                <source media="(min-width:992px)" srcset="img/3.jpg">
+                                                <source media="(min-width:768px)" srcset="img/rest3_t.png">
+                                                <img src="img/3.jpg" alt="Макдоналдс — Газетный">
+                                            </picture>                                  
+                                        </div>
+                                        <h2 class="restaurants__item-title">ДвижОК — Манежная</h2>
+                                        <div class="restaurants__wrap">
+                                            <span class="restaurants__currency">&#8381;</span>
+                                            <ul class="restaurants__kitchen">
+                                                <li class="restaurants__kitchen-item">
+                                                    Американская
+                                                </li>
+                                                <li class="restaurants__kitchen-item">
+                                                    Европейская
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <small class="restaurants__dist">30 - 40 Min</small>
+                                    </a>                                  
+                                </section>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <section class="restaurants__item">
+                                    <a href="#" class="restaurants__link">
+                                        <div class="restaurants__pic-wrap">
+                                            <picture>
+                                                <source media="(min-width:992px)" srcset="img/4.jpg">
+                                                <source media="(min-width:768px)" srcset="img/rest4_t.png">
+                                                <img src="img/4.jpg" alt="Макдоналдс — Газетный">
+                                            </picture>
+                                    
+                                        </div>
+                                        <h2 class="restaurants__item-title">НЯ — NHA</h2>
+                                        <div class="restaurants__wrap">
+                                            <span class="restaurants__currency">&#8381;</span>
+                                            <ul class="restaurants__kitchen">
+                                                <li class="restaurants__kitchen-item">
+                                                    Вьетнамская
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <small class="restaurants__dist">30 - 40 Min</small>
+                                    </a>
+                                    
+                                </section>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <section class="restaurants__item">
+                                    <a href="#" class="restaurants__link">
+                                        <div class="restaurants__pic-wrap">
+                                            <picture>
+                                                <source media="(min-width:992px)" srcset="img/1.jpg">
+                                                <source media="(min-width:768px)" srcset="img/rest5_t.png">
+                                                <img src="img/1.jpg" alt="Макдоналдс — Газетный">
+                                            </picture>
+                                    
+                                        </div>
+                                        <h2 class="restaurants__item-title">НЯ — NHA</h2>
+                                        <div class="restaurants__wrap">
+                                            <span class="restaurants__currency">&#8381;</span>
+                                            <ul class="restaurants__kitchen">
+                                                <li class="restaurants__kitchen-item">
+                                                    Вьетнамская
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <small class="restaurants__dist">30 - 40 Min</small>
+                                    </a>
+                                    
+                                </section>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <section class="restaurants__item">
+                                    <a href="#" class="restaurants__link">
+                                            <div class="restaurants__pic-wrap">
+                                                    <picture>
+                                                        <source media="(min-width:992px)" srcset="img/2.jpg">
+                                                        <source media="(min-width:768px)" srcset="img/rest6_t.png">
+                                                        <img src="img/2.jpg" alt="Макдоналдс — Газетный">
+                                                    </picture>
+            
+                                                </div>
+                                                <h2 class="restaurants__item-title">НЯ — NHA</h2>
+                                                <div class="restaurants__wrap">
+                                                    <span class="restaurants__currency">&#8381;</span>
+                                                    <ul class="restaurants__kitchen">
+                                                        <li class="restaurants__kitchen-item">
+                                                            Вьетнамская
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <small class="restaurants__dist">30 - 40 Min</small>
+                                    </a>
+                                    
+                                </section>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <section class="restaurants__item">
+                                    <a href="#" class="restaurants__link">
+                                        <div class="restaurants__pic-wrap">
+                                            <picture>
+                                                <source media="(min-width:992px)" srcset="img/3.jpg">
+                                                <source media="(min-width:768px)" srcset="img/rest7_t.png">
+                                                <img src="img/3.jpg" alt="Макдоналдс — Газетный">
+                                            </picture>
+                                    
+                                        </div>
+                                        <h2 class="restaurants__item-title">НЯ — NHA</h2>
+                                        <div class="restaurants__wrap">
+                                            <span class="restaurants__currency">&#8381;</span>
+                                            <ul class="restaurants__kitchen">
+                                                <li class="restaurants__kitchen-item">
+                                                    Вьетнамская
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <small class="restaurants__dist">30 - 40 Min</small>
+                                    </a>
+                                    
+                                </section>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <section class="restaurants__item">
+                                    <a href="#" class="restaurants__link">
+                                        <div class="restaurants__pic-wrap">
+                                            <picture>
+                                                <source media="(min-width:992px)" srcset="img/3.jpg">
+                                                <source media="(min-width:768px)" srcset="img/rest8_t.png">
+                                                <img src="img/4.jpg" alt="Макдоналдс — Газетный">
+                                            </picture>
+                                    
+                                        </div>
+                                        <h2 class="restaurants__item-title">НЯ — NHA</h2>
+                                        <div class="restaurants__wrap">
+                                            <span class="restaurants__currency">&#8381;</span>
+                                            <ul class="restaurants__kitchen">
+                                                <li class="restaurants__kitchen-item">
+                                                    Вьетнамская
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <small class="restaurants__dist">30 - 40 Min</small>
+                                    </a>
+                                    
+                                </section>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <section class="restaurants__item">
+                                    <a href="#" class="restaurants__link">
+                                        <div class="restaurants__pic-wrap">
+                                            <picture>
+                                                <source media="(min-width:992px)" srcset="img/4.jpg">
+                                                <source media="(min-width:768px)" srcset="img/rest9_t.png">
+                                                <img src="img/3.jpg" alt="Макдоналдс — Газетный">
+                                            </picture>
+                                    
+                                        </div>
+                                        <h2 class="restaurants__item-title">НЯ — NHA</h2>
+                                        <div class="restaurants__wrap">
+                                            <span class="restaurants__currency">&#8381;</span>
+                                            <ul class="restaurants__kitchen">
+                                                <li class="restaurants__kitchen-item">
+                                                    Вьетнамская
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <small class="restaurants__dist">30 - 40 Min</small>
+                                    </a>
+                                    
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </section>
+    <footer class="main-footer">
+        <div class="container">
+            <div class="inner-wrap">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="main-footer__top">
+                            <a class="logo">
+                                <img src="img/white-logo.svg" alt="Логотип">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="main-footer__middle">
+                            <div class="language">
+                                <form action="">
+                                    <select class="language__select">
+                                        <option class="language__field" value="">English</option>
+                                        <option class="language__field" value="">Russian</option>
+                                    </select>
+                                    <button class="language__btn" type="button">English</button>
+                                </form>
+                            </div>
+                            <div class="socials">
+                                <span class="socials__hashtag">
+                                    <span class="socials__green">#</span>UberEats</span>
+                                <ul class="socials__list">
+                                    <li class="socials__item">
+                                        <a href="#" class="socials__item-link socials__item-link--fb">Фейсбук</a>
+                                    </li>
+                                    <li class="socials__item">
+                                        <a href="#" class="socials__item-link socials__item-link--tw">Твиттер</a>
+                                    </li>
+                                    <li class="socials__item">
+                                        <a href="#" class="socials__item-link socials__item-link--inst">Инстаграм</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-8">
+                        <nav class="navigation">
+                            <ul class="navigation__list">
+                                <li class="navigation__item">
+                                    <a href="#" class="navigation__link">About UberEats</a>
+                                </li>
+                                <li class="navigation__item">
+                                    <a href="#" class="navigation__link">Become a Delivery Partner</a>
+                                </li>
+                                <li class="navigation__item">
+                                    <a href="#" class="navigation__link">Become a Restaurant Partner</a>
+                                </li>
+                            </ul>
+                            <ul class="navigation__list-two">
+                                <li class="navigation__item">
+                                    <a href="#" class="navigation__link">See all cities</a>
+                                </li>
+                                <li class="navigation__item">
+                                    <a href="#" class="navigation__link">Pricing</a>
+                                </li>
+                                <li class="navigation__item">
+                                    <a href="#" class="navigation__link">Help</a>
+                                </li>
+                                <li class="navigation__item">
+                                    <a href="#" class="navigation__link">FAQs</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="main-footer__center">
+                            <a href="#" class="main-footer__as">
+                                <img src="img/as.svg" alt="">
+                            </a>
+                            <a href="#" class="main-footer__gp">
+                                <img src="img/gp.png" alt="Google Play">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="main-footer__bottom">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-4">
+                                    <section class="main-footer__copyright">
+                                        <p>© 2017 Uber Technologies Inc.</p>
+                                    </section>
+                                </div>
+                                <div class="col-xs-12 col-md-4">
+                                    <section class="main-footer__link">
+                                        <a href="#" class="main-footer__privacy">Privacy</a>
+                                        <a href="#" class="main-footer__terms">Terms</a>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-top">
+                Вверх
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
